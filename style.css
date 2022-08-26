@@ -8,7 +8,6 @@ nav {
   box-shadow: -2px 5px 20px 26px rgba(0, 0, 0, 0.4);
   position: relative;
   width: 100%;
-  vertical-align: middle;
 }
 
 ul {
@@ -16,13 +15,11 @@ ul {
   justify-content: space-between;
   flex: 1;
   margin: 0 auto;
-  vertical-align: middle;
 }
 
 li {
   list-style-type: none;
   float: left;
-  vertical-align: middle;
 }
 
 main {
@@ -31,31 +28,100 @@ main {
   display: block;
 }
 
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 > a {
+  color: #228c22;
+}
+
+h2 > a:hover {
+  color: #228c22;
+}
+
+h5 {
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 #title {
   font-size: 50px;
   color: white;
   font-weight: 70;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 #logo {
   padding-right: 20px;
   height: 70px;
   width: 100px;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 #hamburger {
   height: 60px;
   width: 60px;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 #mainImg {
   width: 1000px;
   margin: 0 auto;
   display: block;
+}
+
+@media (max-width: 912px) {
+  nav {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #mainImg {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    height: 40px;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #title {
+    font-size: 20px;
+    vertical-align: center;
+  }
+
+  #logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  #hamburger {
+    height: 30px;
+    width: 30px;
+  }
+
+  #mainImg {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
 }
