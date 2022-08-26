@@ -1,0 +1,61 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: #2a5196;
+  height: 70px;
+  box-shadow: -2px 5px 20px 26px rgba(0, 0, 0, 0.4);
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  vertical-align: middle;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+
+#title {
+  font-size: 50px;
+  color: white;
+  font-weight: 70;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#logo {
+  padding-right: 20px;
+  height: 70px;
+  width: 100px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#hamburger {
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#mainImg {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
