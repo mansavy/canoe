@@ -13,23 +13,40 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <img src="images/hamburger.png" alt="hamburger icon" id="hamburger" />
-        </li>
+    <nav class="navbar navbar-expand-lg top">
+      <div class="container-fluid">
+        <img
+          src="images/hamburger.png"
+          alt="hamburger icon"
+          id="hamburger"
+          class="d-inline-block align-text-top"
+        />
 
-        <li id="title">Halifax Canoe and Kayak</li>
-        <li>
+        <h1 id="title" class="navbar-text d-inline-block align-text-top">
+          Halifax Canoe and Kayak
+        </h1>
+
+        <a href="#" class="navbar-brand d-inline-block align-text-top">
           <img src="/images/paddle-white.png" alt="paddle logo" id="logo" />
-        </li>
+        </a>
+      </div>
+    </nav>
+    <nav id="toggle" class="show">
+      <ul>
+        <br />
+        <li>Home</li>
+        <li>Book Trip</li>
+        <li>Admin Login</li>
       </ul>
     </nav>
+
     <main>
       <img src="/images/canoe.jpeg" alt="Canoe on a riverbank" id="mainImg" />
-      <h1>Upcoming Adventures</h1>
+      <h2 id="upcoming">Upcoming Adventures</h2>
       <hr />
 
       <div id="adventures">
