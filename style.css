@@ -83,7 +83,6 @@ footer {
 }
 
 #logo {
-  padding-right: 20px;
   height: 70px;
   width: 100px;
 }
@@ -91,6 +90,7 @@ footer {
 #hamburger {
   height: 60px;
   width: 60px;
+  margin-left: 10px;
 }
 
 #mainImg {
@@ -127,9 +127,7 @@ footer {
   }
 
   .center {
-    font-size: 50px;
-    top: 30%;
-    left: 65%;
+    display: none;
   }
 
   #mainImg {
@@ -160,10 +158,8 @@ footer {
     font-size: 15px;
     padding-right: 10px;
   }
-
   .center {
-    font-size: 30px;
-    line-height: normal;
+    display: none;
   }
 
   #title {
