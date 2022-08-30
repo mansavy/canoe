@@ -1,5 +1,9 @@
 $(document).ready(function () {
   $("#hamburger").click(function () {
-    $("#toggle").toggleClass("show");
+    if ($(".show").first().is(":hidden")) {
+      $("#toggle").slideDown("slow");
+    } else {
+      $(".show").hide();
+    }
   });
 });

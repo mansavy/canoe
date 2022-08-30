@@ -17,7 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg top">
+    <nav class="navbar navbar-expand-lg top fixed-top">
       <div class="container-fluid">
         <img
           src="images/hamburger.png"
@@ -38,14 +38,18 @@
     <nav id="toggle" class="show">
       <ul>
         <br />
-        <li>Home</li>
-        <li>Book Trip</li>
-        <li>Admin Login</li>
+        <br />
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Book Trip</a></li>
+        <li><a href="#">Admin Login</a></li>
       </ul>
     </nav>
 
     <main>
-      <img src="/images/canoe.jpeg" alt="Canoe on a riverbank" id="mainImg" />
+      <div class="container">
+        <img src="/images/canoe.jpeg" alt="Canoe on a riverbank" id="mainImg" />
+        <div class="center">Come Experience Canada</div>
+      </div>
       <h2 id="upcoming">Upcoming Adventures</h2>
       <hr />
 
